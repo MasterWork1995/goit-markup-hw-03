@@ -7,7 +7,8 @@
   --second-bgc: #f5f4fa;
   --prime-bgc: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
-  --portfolio-header-line-color: #ececec;
+  --portfolio-header-line: 1px solid #ececec;
+  --portfolio-border-item: 1px solid #eeeeee;
 }
 
 body {
@@ -60,6 +61,14 @@ body {
   padding-bottom: 94px;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -67,8 +76,6 @@ body {
   padding-right: 15px;
 
   width: 1200px;
-
-  /* border: 1px solid tomato; */
 }
 
 /* Header*/
@@ -309,8 +316,9 @@ body {
 }
 
 /* Portfolio */
+
 .portfolio-header {
-  border-bottom: 1px solid var(--portfolio-header-line-color);
+  border-bottom: var(--portfolio-header-line);
 }
 
 .portfolio-title {
@@ -347,6 +355,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
+}
+
+.portfolio-list .item {
+  width: 370px;
+  border: var(--portfolio-border-item);
 }
 
 .portfolio-list .item:not(:nth-child(3n)) {
