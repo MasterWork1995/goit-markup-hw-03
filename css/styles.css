@@ -254,23 +254,21 @@ img {
 .teame-subsection {
   background-color: var(--primary-white-color);
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .teame-text {
   margin: 0;
-  padding-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.87;
 }
+
 .comand-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-}
-
-.img-teame-section {
-  margin-bottom: 30px;
 }
 
 .what-we-do-title,
