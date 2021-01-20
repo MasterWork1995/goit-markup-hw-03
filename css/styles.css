@@ -79,16 +79,17 @@ img {
   width: 1200px;
 }
 
-/* Header*/
+/* ====== ШАПКА ======*/
 
-/* Main nav */
+/* ====== MAIN-NAV ====== */
 
 .main-nav {
   display: flex;
   align-items: center;
 }
 
-/* Logo */
+/* ====== LOGO ====== */
+
 .header-logo {
   color: var(--logo-color);
 }
@@ -97,7 +98,7 @@ img {
   color: var(--accent-color);
 }
 
-/* Site-Nav */
+/* ====== SITE-NAV ====== */
 
 .site-nav {
   display: flex;
@@ -129,7 +130,7 @@ img {
     margin-left: 50px;
 } */
 
-/* Contacts-nav */
+/* ====== CONTACTS-NAV ====== */
 
 .contacts {
   display: flex;
@@ -159,7 +160,7 @@ img {
   color: var(--accent-color);
 }
 
-/* Hero section */
+/* ====== ГЕРОЙ ====== */
 
 .hero {
   background-color: var(--prime-bgc);
@@ -193,7 +194,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-/* Characteristics section */
+/* ====== ХАРКТЕРИСТИКИ ====== */
 
 .charact-list {
   display: flex;
@@ -227,7 +228,7 @@ img {
   padding-bottom: 0;
 }
 
-/* What we do section */
+/* ====== ЧТО МЫ ДЕЛАЕМ ====== */
 
 .what-we-do-list {
   display: flex;
@@ -237,7 +238,7 @@ img {
   margin-right: 30px;
 }
 
-/* Teame section */
+/* ====== НАША КОМАНДА ====== */
 
 .teame-section {
   background-color: var(--second-bgc);
@@ -276,7 +277,7 @@ img {
   margin-bottom: 50px;
 }
 
-/* Footer section */
+/* ====== ФУТЕР ====== */
 
 .footer {
   padding-top: 60px;
@@ -314,7 +315,7 @@ img {
   margin-bottom: 9px;
 }
 
-/* Portfolio */
+/* ====== ПОРТФОЛИО ====== */
 
 .portfolio-section {
   padding: 94px 15px;
@@ -336,7 +337,6 @@ img {
 
 .portfolio-text {
   margin: 0;
-  /* margin-bottom: 20px; */
 
   font-size: 16px;
   line-height: 1.87;
