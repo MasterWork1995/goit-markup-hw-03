@@ -170,6 +170,10 @@ img {
 
 .hero-title {
   margin-bottom: 30px;
+  height: 120px;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
 
   color: var(--primary-white-color);
   font-weight: 900;
@@ -181,7 +185,7 @@ img {
 .hero-button {
   border: 1px solid transparent;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 30px;
   min-width: 200px;
   height: 50px;
 
